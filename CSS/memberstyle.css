@@ -1,0 +1,149 @@
+
+#body{
+height:100%;
+float:left;
+width:100%;
+margin-bottom:150px;
+
+}
+#member{
+margin-top:55px;
+margin-left:10%;
+float:left;
+height:100%;
+width:35%;
+background-color: #FFEE99;
+box-shadow: 15px 15px grey;
+
+}
+#photo{
+float:left;
+width:40%;
+}
+#content{
+float:left;
+margin-left:10px;
+margin-top: 10px;
+
+}
+#contenttext{
+
+font-size:25px;
+font-weight: bolder;
+}
+#incontent{
+
+
+font-size:15px;
+
+}
+img.meb{
+width:100%;
+height:100%;
+display: block;
+margin: auto;
+}
+h1.mt{
+border-left: 6px solid red;
+margin-top:8%;
+margin-left:10%;
+
+}
+
+body{
+background-color:#CCDDFF;
+font-family:微軟正黑體;
+}
+/*表單*/
+form.bg{
+background-color:#003377;
+float: left;
+}
+tr:hover {background-color: #FFDD55;}
+table {
+
+width: 30%;
+height:60%;
+border-collapse: collapse;
+border: 0px ;
+}
+table, th, td {
+height: 50px;
+border: 0px ;
+padding:20px;
+font-family:微軟正黑體;
+font-size:16px;
+}
+h1.list{
+text-decoration:underline;
+color:#003377;
+font-weight:bolder;
+font-family:標楷體;
+text-align: center;
+}
+
+.needbold{
+font-weight:bold;
+}
+.textsize{
+font-size:15px;
+padding:5px;
+}
+.inputbutton{
+border:0;
+background-color:#FFDD55;
+color:black;
+border-radius:5px;
+cursor:pointer;
+width:150px;
+height:40px;
+font-family:微軟正黑體;
+font-size:17px;
+font-weight:bold;
+box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+text-align: center;
+}
+.button1:hover {
+background-color:white;
+color: black;
+border: 2px solid #003377;
+}
+.mebuttonpos{
+	position: relative; 
+	left:10%;
+
+}
+input.nameemail{
+padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+border-radius: 5px;
+
+width:100%;
+height:100%;
+}
+input.message{
+padding:5px 15px; background:#ccc; border:0 none;
+cursor:pointer;
+border-radius: 5px;
+
+width:500px;
+height:100px;"
+}
+hr.style-two {
+border: 0;
+height: 1px;
+width: 20cm;
+background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+align:left;
+}
+.contab{
+	margin: 30px 50px;
+}
+.listrightimg{
+
+float: right; 
+opacity:0.5; 
+display:block;
+ margin:auto;
+}
+/*表單*/

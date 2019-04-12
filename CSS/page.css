@@ -1,0 +1,76 @@
+img.imgshow{
+position: relative;
+width: 70%;
+height: auto;
+float: left;
+left:30%;
+top: 20px;
+}
+
+img.imgdown{
+position: relative;
+width: 20%;
+top: 10%;
+left: 32%;
+float: left;
+margin-left: 10px;
+padding: 10px;
+}
+
+h1{
+margin-left: 60px;
+padding: 5px;
+}
+
+p.inp{
+width: 450px;
+border: 3px solid  #003377;
+border-radius: 10px;
+padding: 10px;
+line-height:2;
+}
+
+a.a{
+position: relative;
+float: right;
+right:80px;
+color:black;
+}
+nav.listright{
+	float: right;
+}
+#listflex {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+  border-left: 6px solid red;
+  
+
+background: #ff9999;
+  padding: 20px;
+  list-style-type: circle;
+
+}
+
+
+.leftbar{
+	border-left: 6px solid red;
+  
+
+}
+.leftbarim{  
+
+height:300px;
+width:60%;
+}
+/*工*/
+.worhedim{
+opacity:0.5;
+position: absolute; 
+left: 0px; 
+top: 0px; 
+z-index: -1;
+}
+/*工*/

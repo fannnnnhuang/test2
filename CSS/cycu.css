@@ -1,0 +1,78 @@
+header{
+height:50px;
+}
+figcaption{
+text-align:center;
+}
+section>figure>img{
+display: block;
+margin: 0px auto;
+}
+img.a{
+width:100%;
+height:200px;
+}
+p.ttext{
+line-height: 1.5;
+font-size:20px;
+color:blue;
+font-width:bolder;
+
+}
+p.inttext{
+line-height: 1.5;
+font-size:15px;
+color:black;
+
+
+}
+#know{
+margin-top:68px;
+margin-left:0;
+margin-bottom:50px;
+float:left;
+height:630px;
+width:100%;
+background-color:#FFEE99;
+left:0;
+
+}
+#know2{
+margin-top:68px;
+margin-left:0;
+margin-bottom:50px;
+float:left;
+height:630px;
+width:100%;
+background-color:pink;
+left:0;
+
+}
+.img-container4{
+float: left;
+width: 32%;
+margin-left:12.5%;
+margin-top:175px;
+background-color: #003377;
+margin-top:100px;
+height:80%;
+text-align: center;
+overflow: auto;
+}
+.cycutext{
+color:white;
+font-size: 15px;
+line-height: 2;
+padding: 20px;
+}
+img.imgsize{
+display:block;
+margin:auto;
+
+width:100%;
+
+}
+.cymp{
+	clear: left;  
+	clear: right;
+}

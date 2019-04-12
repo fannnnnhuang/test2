@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>精彩影片</title>
+		<link rel=stylesheet type="text/css" href="CSS/videostyle.css">
+		<link rel=stylesheet type="text/css" href="CSS/memberstyle.css">
+		<link rel=stylesheet type="text/css" href="CSS/header.css">
+		<link rel=stylesheet type="text/css" href="CSS/index.css">
+		<script type="text/javascript" src="JS/index.js"></script>
+	</head>
+	<body>
+		<div id="all">
+			<div id="header">
+				<div id="menu">
+					<img src="images/cycu.png" alt="" width="100%">
+				</div>
+				<div id="title">
+					中原系所
+				</div>
+				<a href="index.html">
+					<div id="page">首頁</div>
+				</a>
+				
+				<a href="video.html">
+					<div id="page">精彩影片</div>
+				</a>
+				
+				<a href="member.html">
+					<div  id="page">關於我們</div>
+				</a>
+				<a href="cycu.html">
+					<div c id="page">認識中原</div>
+				</a>
+				<div id="function">
+					<div id="search">
+						<form action="" method="post" accept-charset="utf-8">
+							搜尋：<input class="hesetx" type="search" name="search" value="" placeholder="search" >
+							<input class="heabut" type="submit" name="searchsubmit" value="確認" >
+						</form>
+					</div>
+					
+				</div>
+			</div>
+			<div id="body">
+				
+				<div id="video">
+					
+					<div align="center">
+						<button class="inputbutton2 button2" onclick="playPause()">播放/暫停</button>
+						<button class="inputbutton2 button2" onclick="makeBig()">放大</button>
+						<button  class="inputbutton2 button2"onclick="makeSmall()">縮小</button>
+						<button class="inputbutton2 button2" onclick="makeNormal()">正常</button>
+						<br><br>
+						<video id="video1" width="800">
+							<source src="多媒體影片.mp4" type="video/mp4">
+							
+						</video>
+					</div>
+					<script>
+					var myVideo = document.getElementById("video1");
+					function playPause() {
+					if (myVideo.paused)
+					myVideo.play();
+					else
+					myVideo.pause();
+					}
+					function makeBig() {
+					myVideo.width = 900;
+					}
+					function makeSmall() {
+					myVideo.width = 650;
+					}
+					function makeNormal() {
+					myVideo.width = 800;
+					}
+					</script>
+				</div>
+				<div id="video2">
+					
+					<img class="storimg" src="images/v1.jpg" alt="" width="42%" height="90%" >
+					<div class="vpt">
+						<p >劇情大綱</p>
+						<p>我們瞭解人人各承不同之稟賦，其性格、能力與環境各異，故充分發揮個人淺力就是成功</p>
+						<hr class="style-two">
+						<p>即使大家共同就讀於中原大學，但為何而來？因何而選？</p>
+						<p>卻不盡相同，每個人背後都有自己的理由，和不能幻化言語的思維，和永無人知曉的辛酸。</p>
+						<p>但來到中原，意味新故事篇章的開端，而選擇系所，就顯得重要，</p>
+						<p>它將會是你謀生的工具、未來的方向、心念的夢想。</p>
+						<p>擇你所嚮、擇你所要。向過往道別，轉身勇闖未來，</p>
+						<p>為成一個更好的自己，為讓自己這一生活得更好、活得猖狂、活得夠本。</p>
+						<p>而中原給予你最大的助力、最真誠的依託，幫你打開「心世界」與「新視界」，讓你心如活水，前程似錦。</p>
+						
+						
+					</div>
+					
+					
+				</div>
+				<div id="video3">
+					
+					<img  class="heaimg" src="images/v2.png" alt="" width="43%" height="90%" >
+					<div class="vpt">
+						<p>心得分享</p>
+						<p>我們認為教育不僅是探索知識與技能的途徑，也是塑造人格、追尋自我生命意義的過程</p>
+						<hr class="style-two">
+						<p>在拍攝影片中，走訪許多校園的角落，發現了很多之前沒去注意的，</p>
+						<p>人生每一個瞬間都是一則故事，只是你沒有發現其中的特別，</p>
+						<p>不管是看自己的故事，還是別人的故事，只要用心去體會，去努力活過自己的人生,</p>
+						<p>當你發現那些珍貴時，你可以去找回錯過的東西，並把握當下，</p>
+						<p>讓每段回憶變成珍貴，去印證你的生命故事，去補足這遲來的情感，遲到的感動。</p>
+						<p>我們沒有能力，所以去學習，我們沒有經驗，所以去傾聽，</p>
+						<p>讓我們不用親身嘔心瀝血，就能走南闖北，體會這世界的美好，</p>
+						<p>讓人生變得豐富，而不再只是走馬看花，虛無縹緲。</p>
+						<p>我們不一定是有故事的人，但可以變成傳遞和傾聽故事的人。
+						</p>
+						
+					</div>
+					
+					
+				</div>
+				
+				<div id="video4">
+					<section>
+						<div class="vpt">
+							<p>校園角落-遺失的感動</p>
+							<hr class="style-two">
+							
+						</div>
+						<div id="carousel" class="carousel slide" data-ride="carousel" data-keyboard="false">
+							<ol class="carousel-indicators">
+								<li data-target="#carousel" data-slide-to="0" class="active" onclick="showimg(0); dis(0)"></li>
+								<li data-target="#carousel" data-slide-to="1" class="activedown" onclick="showimg(1); dis(1)"></li>
+								<li data-target="#carousel" data-slide-to="2" class="activedown" onclick="showimg(2); dis(2)"></li>
+								<li data-target="#carousel" data-slide-to="3" class="activedown" onclick="showimg(3); dis(3)"></li>
+								<li data-target="#carousel" data-slide-to="4" class="activedown" onclick="showimg(4); dis(4)"></li>
+								<li data-target="#carousel" data-slide-to="5" class="activedown" onclick="showimg(5); dis(5)"></li>
+								<li data-target="#carousel" data-slide-to="6" class="activedown" onclick="showimg(6); dis(6)"></li>
+							</ol>
+							<div class="carousel-inner" role="listbox">
+								
+								<a class="" href="" target="_self" title="" tabindex="0">
+									<img src="images/vv1.jpg" class="item" />
+								</a>
+								<a class="" href="" target="_self" title="" tabindex="0">
+									<img src="images/vv2.jpg" class="item" />
+								</a>
+								<a class="" href="" target="_self" title="" tabindex="0">
+									<img src="images/vv3.jpg" class="item" />
+								</a>
+								<a class="" href="" target="_self" title="" tabindex="0">
+									<img src="images/vv4.jpg" class="item" />
+								</a>
+								<a class="" href="" target="_self" title="" tabindex="0">
+									<img src="images/vv5.jpg" class="item" />
+								</a>
+								<a class="" href="" target="_self" title="" tabindex="0">
+									<img src="images/vv6.jpg" class="item" />
+								</a>
+								<a class="" href="" target="_self" title="" tabindex="0">
+									<img src="images/vv7.jpg" class="item" />
+								</a>
+							</div>
+						</div>
+					</section>
+					
+				</div>
+				
+				
+			</div>
+			<div id="video5">
+				<div class="vpt">
+					<p>想知道更多資訊？</p>
+					<p>Want to know more?</p>
+					<hr class="style-two">
+					<p>快聯繫我們</p>
+					<p>contact us</p>
+					
+					<form action="member.html" method="get" accept-charset="utf-8">
+						<p><input class="inputbutton2 button2" type="button" value="聯絡我們" onclick="javascript:history.back();"  />
+						
+						<input class="inputbutton2 button2" type="button" value="繼續閱讀" onclick="javascript:history.back();"  />
+					</p>
+				</form>
+				
+			</div>
+			
+			
+		</div>
+		
+		
+	</div>
+</body>
+</html>
